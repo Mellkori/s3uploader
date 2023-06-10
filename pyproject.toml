@@ -2,7 +2,7 @@
 name = "s3uploader"
 version = "1.0.1"
 description = "S3 Uploader"
-authors = ["milos.slavik@outlook.com"]
+authors = ["Mellkori <milos.slavik@outlook.com>"]
 packages = [
     { include = "s3uploader", from = "src" },
 ]
