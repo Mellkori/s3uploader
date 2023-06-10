@@ -1,0 +1,5 @@
+pip==22.3.1
+boto3==1.26.118
+coverage==7.2.3
+python_dotenv==1.0.0
+setuptools==67.7.2
