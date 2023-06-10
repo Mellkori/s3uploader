@@ -34,3 +34,4 @@ MANIFEST
 .vs
 /.env
 .env
+/.pypirc
