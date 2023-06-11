@@ -1,7 +1,9 @@
 [tool.poetry]
-name = "s3uploader"
-version = "1.0.1"
-description = "S3 Uploader"
+name = "s3uploader-ci-cd"
+version = "1.0.2"
+description = "S3 Uploader for CI/CD pipeline"
+readme = "README.md"
+homepage = "https://github.com/Mellkori/s3uploader"
 authors = ["Mellkori <milos.slavik@outlook.com>"]
 packages = [
     { include = "s3uploader", from = "src" },

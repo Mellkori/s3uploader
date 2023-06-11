@@ -13,7 +13,7 @@
     <RootNamespace>s3upload</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>--bucket_name dev-bisim-cdn-distribution --upload_prefix_config_file test/systemtest/output_path.txt --source_dir test/systemtest --include "*" --exclude "exclude.txt"</CommandLineArguments>
+    <CommandLineArguments>--bucket_name distribution --upload_prefix_config_file test/systemtest/output_path.txt --source_dir test/systemtest --include "*" --exclude "exclude.txt"</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
     <IsWindowsApplication>True</IsWindowsApplication>
     <TestFramework>unittest</TestFramework>
@@ -51,6 +51,7 @@
   <ItemGroup>
     <Content Include=".env" />
     <Content Include="env\.gitignore" />
+    <Content Include="CONTRIBUTING.md" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
     <Content Include="test\systemtest\test.txt" />
